@@ -1,0 +1,68 @@
+.back {
+    background-image: url("fundo.jpg");
+    background-size: 100%;
+}
+  .body1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: auto;
+    height: 50%;
+    width: 50%;
+    border-radius: 5%;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 5px rgb(87, 87, 87);
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  @media (max-width: 600px) {
+    .body1 {
+      width: 80%;
+    }
+  }
+  
+  @media (min-width: 601px) and (max-width: 900px) {
+    .body1 {
+      width: 70%;
+    }
+  }
+  
+  @media (min-width: 901px) {
+    .body1 {
+      width: 50%;
+    }
+  }
+  
+  .port {
+    align-items: flex-end;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px;
+    
+  }
+  
+  h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    color: black;
+    margin-top: 0px;
+  }
+
+  h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color: black;
+  }
+
+  p {
+    font-size: 19px;
+    color: rgb(54, 53, 53);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0%;
+    margin: 0%;
+  }
+
+  li {
+    font-size: 19px;
+    color: rgb(54, 53, 53);
+  }

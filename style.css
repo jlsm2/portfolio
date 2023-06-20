@@ -90,60 +90,36 @@
     height: 80px;
   }
 
-  .sButton {
-    color: rgb(0, 0, 0);
-    transition: all 0.3s;
-    position: relative;
-  }
-  .sButton span {
-    transition: all 0.3s;
-  }
-  .sButton::before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    opacity: 0;
-    transition: all 0.3s;
-    border-top-width: 1px;
-    border-bottom-width: 1px;
-    border-top-style: solid;
-    border-bottom-style: solid;
-    border-top-color: rgba(255,255,255,0.5);
-    border-bottom-color: rgba(255,255,255,0.5);
-    transform: scale(0.1, 1);
-  }
-  .sButton:hover span {
-    letter-spacing: 2px;
-  }
-  .sButton:hover::before {
-    opacity: 1; 
-    transform: scale(1, 1); 
-  }
-  .sButton::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    transition: all 0.3s;
-    background-color: rgba(255,255,255,0.1);
-  }
-  .sButton:hover::after {
-    opacity: 0; 
-    transform: scale(0.1, 1);
+  .redirects {
+    text-align: center;
+    align-items: flex-end;
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 10%;
   }
 
-  .redirects {
-    line-height: 50px;
-    height: 50px;
-    text-align: center;
-    width: 250px;
-    cursor: pointer;
+  .redirects a{
+    color: #000000;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    width: 200px;
+    height: 35px;
+
+    border: 2px solid black;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    transition: 0.2s;
+  }
+
+  .redirects a:hover {
+    color: rgb(255, 255, 255);
+    background-color: black;
   }
   
