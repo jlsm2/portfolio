@@ -44,13 +44,5 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: black;
     margin-top: 0px;
-  }
-
-  .imagem {
-    max-width: 960px;
-    display: block;
-    margin: 0 auto;
-    border-radius: 50%;
-    width: 180px;
-    height: 180px;
+    font-size: 45px;
   }
